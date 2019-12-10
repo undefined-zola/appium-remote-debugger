@@ -56,10 +56,6 @@
     "lint:fix": "gulp eslint --fix",
     "inspect-safari": "node build/bin/web_inspector_proxy.js"
   },
-  "pre-commit": [
-    "precommit-msg",
-    "precommit-test"
-  ],
   "devDependencies": {
     "ajv": "^6.5.3",
     "appium-gulp-plugins": "^4.2.0",
